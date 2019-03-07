@@ -31,7 +31,7 @@ CREATE TABLE `earthquakes` (
 )
 ```
 
-2. Run the following command:
+3. Run the following command:
 
 ```
 mysqlimport --ignore-lines=1 --fields-terminated-by=, --fields-optionally-enclosed-by=\" --local -u root -p 
