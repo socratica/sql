@@ -4,12 +4,12 @@ CREATE TABLE public.earthquake
     occurred_on 		timestamp,
     latitude 			real,
     longitude 			real,
-    depth 				real,
+    depth 			real,
     magnitude 			real,
-    calculation_method  character varying(128),
-    network_id 			character varying(128),
-    place 				character varying(500),
-    cause 				character varying(128),
+    calculation_method          character varying(128),
+    network_id 		        character varying(128),
+    place 			character varying(500),
+    cause 			character varying(128),
     
     CONSTRAINT earthquake_pkey PRIMARY KEY (earthquake_id)
 )
