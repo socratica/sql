@@ -1,0 +1,2 @@
+COPY earthquake(earthquake_id,occurred_on,latitude,longitude,depth,magnitude,calculation_method,network_id,place,cause)
+FROM 'D:\Downloads\earthquake.csv' DELIMITER ',' CSV HEADER;﻿   --make sure you put the csv file in D:\Downloads
