@@ -15,7 +15,7 @@ WITH (
 
 CREATE TABLE public.post
 (
-    post_id			serial NOT NULL,
+    post_id		serial NOT NULL,
     user_id 		integer,
     post_text		character varying(1024),
     posted_on 		timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
