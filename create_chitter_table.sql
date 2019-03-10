@@ -1,10 +1,10 @@
 CREATE TABLE public.chitter_user
 (
-    user_id 				serial NOT NULL,
-    username 				character varying(128),
+    user_id 			serial NOT NULL,
+    username 			character varying(128),
     encrypted_password 		character varying(128),
-    email 					character varying(128),
-    date_joined 			timestamp,
+    email 			character varying(128),
+    date_joined 	        timestamp,
     
     CONSTRAINT chitter_user_pkey PRIMARY KEY (user_id)
 )
